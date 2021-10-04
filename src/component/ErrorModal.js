@@ -1,4 +1,4 @@
-import ReactDom, {createPortal} from 'react-dom';
+import ReactDom from 'react-dom';
 import Button from './Button';
 import styles from './ErrorModal.module.css'
 import Card from './Card';
