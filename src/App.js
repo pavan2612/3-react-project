@@ -5,11 +5,11 @@ import AddUser from './component/AddUser';
 
 function App() {
 
-  const [usersData,setUserData] = useState('')
+  const [usersData,setUserData] = useState([])
 
   const saveList = (user) => {
     setUserData((userdetails) => {
-      return [...userdetails,{userName:user.name,userAge:user.age ,id:Math.random().toString}]
+      return [...userdetails,{name:user.name,age:user.age ,id:Math.random().toString()},]
     })
   }
 
